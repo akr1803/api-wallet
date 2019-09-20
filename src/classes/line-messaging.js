@@ -7,7 +7,6 @@ class LineMessaging{
     constructor(){}
     replyMessage(replyToken, message, userid){
         return new Promise((resolve, reject) => {
-            let akr;
             try {
                 let _msg = [{
                     type: 'text',
