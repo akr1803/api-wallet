@@ -1,5 +1,6 @@
 const numeral = require('numeral');
 const dateFormat = require('dateformat');
+// xxx
 let msgFlex = [{
     type: String,
     altText: String,
